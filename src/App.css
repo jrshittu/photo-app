@@ -38,6 +38,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
+  font-family: monospace;
 }
 
 .search {
@@ -114,12 +115,13 @@ h1 {
   flex-wrap: wrap;
 }
 
-.movie {
-  width: 310px;
-  height: 460px;
+.pics {
+  width: 410px;
+  height: 360px;
   margin: 1.5rem;
 
   position: relative;
+  
   border-radius: 12px;
   overflow: hidden;
   border: none;

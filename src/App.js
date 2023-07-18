@@ -215,7 +215,11 @@ function App() {
 
       </div>
       <div className='container'>
-
+        <div className='pics'>
+          <div>
+            <img src={pixs1.urls.small} alt={pixs1.alt_description} />
+          </div>
+        </div>
       </div>
 
     </div>
