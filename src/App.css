@@ -38,6 +38,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
+  font-family: monospace;
 }
 
 .search {
