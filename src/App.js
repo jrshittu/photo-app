@@ -11,7 +11,7 @@ function App() {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
 
-    console.log(data);
+    console.log(data.Search);
   };
 
   useEffect(()=>{
@@ -19,9 +19,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="app">
+      <h1>Pixisland</h1>
 
-      <h1>Photo App</h1>
+      <div className="search">
+        <input placeholder='Search for your favorite pictures'/>
+      </div>
 
     </div>
   );
