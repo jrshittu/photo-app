@@ -7,76 +7,76 @@ const API_KEY = "M16Lq6_PG8dyMKB-2iGV7-e4lMIpv8dWU46Wn36GVwY";
 const API_URL = `https://api.unsplash.com/search/photos?page=1&query=office&client_id=${API_KEY}`;
 
 const pixs1 = {
-  "id": "5U_28ojjgms",
-  "slug": "5U_28ojjgms",
-  "created_at": "2019-09-20T15:40:25Z",
-  "updated_at": "2023-07-17T17:09:14Z",
-  "promoted_at": "2019-09-22T08:01:59Z",
-  "width": 4821,
-  "height": 2712,
+  "id": "dIMJWLx1YbE",
+  "slug": "dIMJWLx1YbE",
+  "created_at": "2018-09-03T07:02:42Z",
+  "updated_at": "2023-07-18T00:04:41Z",
+  "promoted_at": "2018-09-04T16:06:10Z",
+  "width": 3605,
+  "height": 4806,
   "color": "#262626",
-  "blur_hash": "LSF=m#~qE1Z~_3-;xFV@E1RjofR*",
-  "description": "Collaborative Meeting",
-  "alt_description": "people sitting on chair",
+  "blur_hash": "LPEyoM9Ft8R%_NRit7kCNsM{ozt7",
+  "description": null,
+  "alt_description": "MacBook Pro",
   "breadcrumbs": [],
   "urls": {
-      "raw": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA&ixlib=rb-4.0.3",
-      "full": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA&ixlib=rb-4.0.3&q=85",
-      "regular": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "small": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA&ixlib=rb-4.0.3&q=80&w=400",
-      "thumb": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA&ixlib=rb-4.0.3&q=80&w=200",
-      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1568992687947-868a62a9f521"
+      "raw": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA&ixlib=rb-4.0.3",
+      "full": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA&ixlib=rb-4.0.3&q=85",
+      "regular": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "small": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA&ixlib=rb-4.0.3&q=80&w=400",
+      "thumb": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA&ixlib=rb-4.0.3&q=80&w=200",
+      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1535957998253-26ae1ef29506"
   },
   "links": {
-      "self": "https://api.unsplash.com/photos/5U_28ojjgms",
-      "html": "https://unsplash.com/photos/5U_28ojjgms",
-      "download": "https://unsplash.com/photos/5U_28ojjgms/download?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA",
-      "download_location": "https://api.unsplash.com/photos/5U_28ojjgms/download?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHwzfHxvZmZpY2V8ZW58MHx8fHwxNjg5NjgzMzk5fDA"
+      "self": "https://api.unsplash.com/photos/dIMJWLx1YbE",
+      "html": "https://unsplash.com/photos/dIMJWLx1YbE",
+      "download": "https://unsplash.com/photos/dIMJWLx1YbE/download?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA",
+      "download_location": "https://api.unsplash.com/photos/dIMJWLx1YbE/download?ixid=M3w0NzU0MDB8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjg5Njk3NzQ0fDA"
   },
-  "likes": 1159,
+  "likes": 2287,
   "liked_by_user": false,
   "current_user_collections": [],
   "sponsorship": null,
   "topic_submissions": {
       "business-work": {
           "status": "approved",
-          "approved_on": "2021-08-23T15:13:05Z"
+          "approved_on": "2020-04-06T14:20:15Z"
       }
   },
   "user": {
-      "id": "Q9Ig7Srx2OI",
-      "updated_at": "2023-07-15T03:06:28Z",
-      "username": "raddfilms",
-      "name": "Redd F",
-      "first_name": "Redd",
-      "last_name": "F",
+      "id": "wtg3a4xlj2w",
+      "updated_at": "2023-07-08T02:18:45Z",
+      "username": "olenkasergienko",
+      "name": "Olena Sergienko",
+      "first_name": "Olena",
+      "last_name": "Sergienko",
       "twitter_username": null,
-      "portfolio_url": "https://www.raddfilms.com/",
-      "bio": "Photographer & Filmmaker\r\n",
-      "location": "Edmonton, Alberta",
+      "portfolio_url": "https://www.behance.net/olenkasergienko",
+      "bio": "🇺🇦 From Kyiv with love 📸🖖\r\n🇵🇱 Currently in Warsaw DM me for brand content | thanks for the PayPal donation",
+      "location": "Warszawa",
       "links": {
-          "self": "https://api.unsplash.com/users/raddfilms",
-          "html": "https://unsplash.com/@raddfilms",
-          "photos": "https://api.unsplash.com/users/raddfilms/photos",
-          "likes": "https://api.unsplash.com/users/raddfilms/likes",
-          "portfolio": "https://api.unsplash.com/users/raddfilms/portfolio",
-          "following": "https://api.unsplash.com/users/raddfilms/following",
-          "followers": "https://api.unsplash.com/users/raddfilms/followers"
+          "self": "https://api.unsplash.com/users/olenkasergienko",
+          "html": "https://unsplash.com/@olenkasergienko",
+          "photos": "https://api.unsplash.com/users/olenkasergienko/photos",
+          "likes": "https://api.unsplash.com/users/olenkasergienko/likes",
+          "portfolio": "https://api.unsplash.com/users/olenkasergienko/portfolio",
+          "following": "https://api.unsplash.com/users/olenkasergienko/following",
+          "followers": "https://api.unsplash.com/users/olenkasergienko/followers"
       },
       "profile_image": {
-          "small": "https://images.unsplash.com/profile-1651635111298-b88086877026image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32",
-          "medium": "https://images.unsplash.com/profile-1651635111298-b88086877026image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
-          "large": "https://images.unsplash.com/profile-1651635111298-b88086877026image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
+          "small": "https://images.unsplash.com/profile-1630491198015-3d997fe8db72image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32",
+          "medium": "https://images.unsplash.com/profile-1630491198015-3d997fe8db72image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
+          "large": "https://images.unsplash.com/profile-1630491198015-3d997fe8db72image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
       },
-      "instagram_username": "radd.films",
-      "total_collections": 0,
-      "total_likes": 244,
-      "total_photos": 636,
+      "instagram_username": "olenka_sergienko",
+      "total_collections": 1,
+      "total_likes": 238,
+      "total_photos": 809,
       "accepted_tos": true,
       "for_hire": true,
       "social": {
-          "instagram_username": "radd.films",
-          "portfolio_url": "https://www.raddfilms.com/",
+          "instagram_username": "olenka_sergienko",
+          "portfolio_url": "https://www.behance.net/olenkasergienko",
           "twitter_username": null,
           "paypal_email": null
       }
@@ -87,100 +87,205 @@ const pixs1 = {
           "title": "office"
       },
       {
-          "type": "search",
-          "title": "business"
-      },
-      {
           "type": "landing_page",
-          "title": "people",
+          "title": "laptop",
           "source": {
               "ancestry": {
                   "type": {
-                      "slug": "images",
-                      "pretty_slug": "Images"
+                      "slug": "wallpapers",
+                      "pretty_slug": "HD Wallpapers"
                   },
                   "category": {
-                      "slug": "people",
-                      "pretty_slug": "People"
+                      "slug": "desktop",
+                      "pretty_slug": "Desktop"
+                  },
+                  "subcategory": {
+                      "slug": "laptop",
+                      "pretty_slug": "Laptop"
                   }
               },
-              "title": "People images & pictures",
-              "subtitle": "Download free people images",
-              "description": "Human faces speak to us in a way that language cannot. Everyone recognize a smile, a frown, tears. Unsplash has the finest selection of people images on the web: high-def and curated for quality. Family, friends, men, women, Unsplash has photos for all.",
-              "meta_title": "People Pictures [HQ] | Download Free Images on Unsplash",
-              "meta_description": "Choose from hundreds of free people pictures. Download HD people photos for free on Unsplash.",
+              "title": "Hd laptop wallpapers",
+              "subtitle": "Download free laptop wallpapers",
+              "description": "Choose from a curated selection of laptop wallpapers for your mobile and desktop screens. Always free on Unsplash.",
+              "meta_title": "Laptop Wallpapers: Free HD Download [500+ HQ] | Unsplash",
+              "meta_description": "Choose from hundreds of free laptop wallpapers. Download HD wallpapers for free on Unsplash.",
               "cover_photo": {
-                  "id": "PmNjS6b3XP4",
-                  "slug": "PmNjS6b3XP4",
-                  "created_at": "2017-04-20T22:04:07Z",
-                  "updated_at": "2023-07-14T07:01:28Z",
-                  "promoted_at": "2017-04-21T16:00:49Z",
-                  "width": 4630,
-                  "height": 3087,
-                  "color": "#a6d9d9",
-                  "blur_hash": "LjI=x%:QUbv#NHWVa}kCt7jFjZfQ",
-                  "description": "Summer in France with baby",
-                  "alt_description": "woman carrying baby while walking",
+                  "id": "7TGVEgcTKlY",
+                  "slug": "7TGVEgcTKlY",
+                  "created_at": "2017-07-20T06:16:22Z",
+                  "updated_at": "2023-07-17T13:01:45Z",
+                  "promoted_at": "2017-07-20T15:42:14Z",
+                  "width": 5130,
+                  "height": 3425,
+                  "color": "#597340",
+                  "blur_hash": "LAD,i29I0O.M^%IWjK-o4:RkxXr_",
+                  "description": "Red Fox in a Field",
+                  "alt_description": "red fox standing on grass field",
                   "breadcrumbs": [],
                   "urls": {
-                      "raw": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3",
-                      "full": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
-                      "regular": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
-                      "small": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max",
-                      "thumb": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
-                      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1492725764893-90b379c2b6e7"
+                      "raw": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?ixlib=rb-4.0.3",
+                      "full": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+                      "regular": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+                      "small": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max",
+                      "thumb": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+                      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1500531359996-c89a0e63e49c"
                   },
                   "links": {
-                      "self": "https://api.unsplash.com/photos/PmNjS6b3XP4",
-                      "html": "https://unsplash.com/photos/PmNjS6b3XP4",
-                      "download": "https://unsplash.com/photos/PmNjS6b3XP4/download",
-                      "download_location": "https://api.unsplash.com/photos/PmNjS6b3XP4/download"
+                      "self": "https://api.unsplash.com/photos/7TGVEgcTKlY",
+                      "html": "https://unsplash.com/photos/7TGVEgcTKlY",
+                      "download": "https://unsplash.com/photos/7TGVEgcTKlY/download",
+                      "download_location": "https://api.unsplash.com/photos/7TGVEgcTKlY/download"
                   },
-                  "likes": 2715,
+                  "likes": 1652,
                   "liked_by_user": false,
                   "current_user_collections": [],
                   "sponsorship": null,
                   "topic_submissions": {
-                      "current-events": {
+                      "wallpapers": {
                           "status": "approved",
-                          "approved_on": "2021-03-01T12:52:57Z"
+                          "approved_on": "2020-04-06T14:20:09Z"
                       }
                   },
+                  "premium": false,
+                  "plus": false,
                   "user": {
-                      "id": "7S_pCRiCiQo",
-                      "updated_at": "2023-07-02T21:53:04Z",
-                      "username": "thedakotacorbin",
-                      "name": "Dakota Corbin",
-                      "first_name": "Dakota",
-                      "last_name": "Corbin",
-                      "twitter_username": "thedakotacorbin",
-                      "portfolio_url": null,
-                      "bio": "Husband | Father | Creator",
-                      "location": "Utah, United States",
+                      "id": "UT41ainZxFI",
+                      "updated_at": "2023-07-17T02:58:18Z",
+                      "username": "nathananderson",
+                      "name": "Nathan Anderson",
+                      "first_name": "Nathan",
+                      "last_name": "Anderson",
+                      "twitter_username": "nathanworking",
+                      "portfolio_url": "https://kunack.us/follow?source=unsplash",
+                      "bio": "Prints now available at Kunack.us",
+                      "location": "Knoxville, TN",
                       "links": {
-                          "self": "https://api.unsplash.com/users/thedakotacorbin",
-                          "html": "https://unsplash.com/@thedakotacorbin",
-                          "photos": "https://api.unsplash.com/users/thedakotacorbin/photos",
-                          "likes": "https://api.unsplash.com/users/thedakotacorbin/likes",
-                          "portfolio": "https://api.unsplash.com/users/thedakotacorbin/portfolio",
-                          "following": "https://api.unsplash.com/users/thedakotacorbin/following",
-                          "followers": "https://api.unsplash.com/users/thedakotacorbin/followers"
+                          "self": "https://api.unsplash.com/users/nathananderson",
+                          "html": "https://unsplash.com/@nathananderson",
+                          "photos": "https://api.unsplash.com/users/nathananderson/photos",
+                          "likes": "https://api.unsplash.com/users/nathananderson/likes",
+                          "portfolio": "https://api.unsplash.com/users/nathananderson/portfolio",
+                          "following": "https://api.unsplash.com/users/nathananderson/following",
+                          "followers": "https://api.unsplash.com/users/nathananderson/followers"
                       },
                       "profile_image": {
-                          "small": "https://images.unsplash.com/profile-1688334779765-edbf1229e3fa?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32",
-                          "medium": "https://images.unsplash.com/profile-1688334779765-edbf1229e3fa?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
-                          "large": "https://images.unsplash.com/profile-1688334779765-edbf1229e3fa?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
+                          "small": "https://images.unsplash.com/profile-1676320214445-e3fec6f7b87cimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32",
+                          "medium": "https://images.unsplash.com/profile-1676320214445-e3fec6f7b87cimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
+                          "large": "https://images.unsplash.com/profile-1676320214445-e3fec6f7b87cimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
                       },
-                      "instagram_username": "thedakotacorbin",
-                      "total_collections": 0,
-                      "total_likes": 1,
-                      "total_photos": 44,
+                      "instagram_username": "kunack.us",
+                      "total_collections": 9,
+                      "total_likes": 1224,
+                      "total_photos": 1330,
                       "accepted_tos": true,
                       "for_hire": true,
                       "social": {
-                          "instagram_username": "thedakotacorbin",
-                          "portfolio_url": null,
-                          "twitter_username": "thedakotacorbin",
+                          "instagram_username": "kunack.us",
+                          "portfolio_url": "https://kunack.us/follow?source=unsplash",
+                          "twitter_username": "nathanworking",
+                          "paypal_email": null
+                      }
+                  }
+              }
+          }
+      },
+      {
+          "type": "landing_page",
+          "title": "computer",
+          "source": {
+              "ancestry": {
+                  "type": {
+                      "slug": "wallpapers",
+                      "pretty_slug": "HD Wallpapers"
+                  },
+                  "category": {
+                      "slug": "desktop",
+                      "pretty_slug": "Desktop"
+                  },
+                  "subcategory": {
+                      "slug": "computer",
+                      "pretty_slug": "Computer"
+                  }
+              },
+              "title": "Hd computer wallpapers",
+              "subtitle": "Download free computer wallpapers",
+              "description": "Choose from a curated selection of computer wallpapers for your mobile and desktop screens. Always free on Unsplash.",
+              "meta_title": "Computer Wallpapers: Free HD Download [500+ HQ] | Unsplash",
+              "meta_description": "Choose from hundreds of free computer wallpapers. Download HD wallpapers for free on Unsplash.",
+              "cover_photo": {
+                  "id": "wyEinDRV88I",
+                  "slug": "wyEinDRV88I",
+                  "created_at": "2016-11-18T21:01:40Z",
+                  "updated_at": "2023-07-16T14:01:08Z",
+                  "promoted_at": "2016-11-18T21:01:40Z",
+                  "width": 7952,
+                  "height": 5304,
+                  "color": "#c0c0c0",
+                  "blur_hash": "LhF$CS?bRjRj~p%LV@WCSiWWWBof",
+                  "description": null,
+                  "alt_description": "woman taking photo of buildings",
+                  "breadcrumbs": [],
+                  "urls": {
+                      "raw": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-4.0.3",
+                      "full": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+                      "regular": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+                      "small": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max",
+                      "thumb": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max",
+                      "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1479502806991-251c94be6b15"
+                  },
+                  "links": {
+                      "self": "https://api.unsplash.com/photos/wyEinDRV88I",
+                      "html": "https://unsplash.com/photos/wyEinDRV88I",
+                      "download": "https://unsplash.com/photos/wyEinDRV88I/download",
+                      "download_location": "https://api.unsplash.com/photos/wyEinDRV88I/download"
+                  },
+                  "likes": 584,
+                  "liked_by_user": false,
+                  "current_user_collections": [],
+                  "sponsorship": null,
+                  "topic_submissions": {
+                      "wallpapers": {
+                          "status": "approved",
+                          "approved_on": "2020-04-06T14:20:09Z"
+                      }
+                  },
+                  "premium": false,
+                  "plus": false,
+                  "user": {
+                      "id": "WylEZk6e2xA",
+                      "updated_at": "2023-07-12T04:21:00Z",
+                      "username": "thoughtcatalog",
+                      "name": "Thought Catalog",
+                      "first_name": "Thought",
+                      "last_name": "Catalog",
+                      "twitter_username": "thoughtcatalog",
+                      "portfolio_url": "http://thoughtcatalog.com/?utm_campaign=platform-link&utm_source=unsplash&utm_medium=profile",
+                      "bio": "We're a digital magazine based in Brooklyn. We use Unsplash to share with the world some of our best in-house photography.",
+                      "location": "New York",
+                      "links": {
+                          "self": "https://api.unsplash.com/users/thoughtcatalog",
+                          "html": "https://unsplash.com/@thoughtcatalog",
+                          "photos": "https://api.unsplash.com/users/thoughtcatalog/photos",
+                          "likes": "https://api.unsplash.com/users/thoughtcatalog/likes",
+                          "portfolio": "https://api.unsplash.com/users/thoughtcatalog/portfolio",
+                          "following": "https://api.unsplash.com/users/thoughtcatalog/following",
+                          "followers": "https://api.unsplash.com/users/thoughtcatalog/followers"
+                      },
+                      "profile_image": {
+                          "small": "https://images.unsplash.com/profile-1479502385647-8aa0d0e9a87b?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32",
+                          "medium": "https://images.unsplash.com/profile-1479502385647-8aa0d0e9a87b?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
+                          "large": "https://images.unsplash.com/profile-1479502385647-8aa0d0e9a87b?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
+                      },
+                      "instagram_username": "thoughtcatalog",
+                      "total_collections": 5,
+                      "total_likes": 12,
+                      "total_photos": 173,
+                      "accepted_tos": true,
+                      "for_hire": true,
+                      "social": {
+                          "instagram_username": "thoughtcatalog",
+                          "portfolio_url": "http://thoughtcatalog.com/?utm_campaign=platform-link&utm_source=unsplash&utm_medium=profile",
+                          "twitter_username": "thoughtcatalog",
                           "paypal_email": null
                       }
                   }
@@ -188,7 +293,8 @@ const pixs1 = {
           }
       }
   ]
-}
+};
+
 function App() {
 
   const searchPhotos = async (title) => {
@@ -199,7 +305,7 @@ function App() {
   };
 
   useEffect(()=>{
-    searchPhotos('mountain');
+    searchPhotos('love');
   }, []);
 
   return (
@@ -208,7 +314,7 @@ function App() {
 
       <div className="search">
         <input placeholder='Search for your favorite pictures' 
-        value="mountain"
+        value="love"
         onChange={ ()=> {}}/>
 
         <img src={SearchIcon} alt="search"/>
@@ -217,7 +323,10 @@ function App() {
       <div className='container'>
         <div className='pics'>
           <div>
-            <img src={pixs1.urls.small} alt={pixs1.alt_description} />
+            <img src={pixs1.urls.small} alt={pixs1.meta_title} />
+          </div>
+          <div>
+            <span>{pixs1.tags.title}</span>
           </div>
         </div>
       </div>
