@@ -58,6 +58,10 @@ const prevPage = () => {
         />
 
       </div>
+      <div className='pagination'>
+        <button onClick={prevPage} disabled={currentPage === 1}>Previous</button>
+        <button onClick={nextPage}>Next</button>
+      </div>
       {
         photos?.length > 0
         ? (
