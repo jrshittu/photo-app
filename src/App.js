@@ -14,17 +14,17 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
 
 
-  const fetchPhotos = async (title, page) => {
+  const fetchPhotos = async (search, page) => {
     const API_URL = `https://api.unsplash.com/search/photos?page=${page}&query=${search}&client_id=${API_KEY}`;
-    const response = await fetch(`${API_URL}&s=${title}`);
+    const response = await fetch(`${API_URL}&s=${search}`);
     const data = await response.json();
 
     setPhotos(data.results);
   };
 
-  const searchPhotos = (title) => {
+  const searchPhotos = (search) => {
     setCurrentPage(1);
-    fetchPhotos(title, 1);
+    fetchPhotos(search, 1);
   };
 
   const nextPage = () => {
