@@ -1,14 +1,14 @@
 import React from 'react';
 
-const PicsComponent = ({ pixs1 }) => {
+const PicsComponent = ({ pix1 }) => {
 
     return (
         <div className='pics'>
           <div>
-            <img src={pixs1.urls.small} alt={pixs1.meta_description} />
+            <img src={pix1.urls.small} alt={pix1.meta_description} />
           </div>
           <div>
-            <span>{pixs1.tags[0].title}</span>
+            <span>{pix1.tags.title}</span>
           </div>
         </div>
     )
