@@ -40,7 +40,7 @@ const prevPage = () => {
   };
 
   useEffect(() => {
-    fetchPhotos(search, currentPage);
+    fetchPhotos(diamonds, currentPage);
   }, [currentPage]);
 
 
