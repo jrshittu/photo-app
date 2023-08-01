@@ -40,7 +40,7 @@ const prevPage = () => {
   };
 
   useEffect(() => {
-    fetchPhotos('butterfly', currentPage);
+    fetchPhotos(butterfly, currentPage);
   }, [currentPage]);
 
 
