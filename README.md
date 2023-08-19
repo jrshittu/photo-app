@@ -48,7 +48,7 @@ REACT_APP_UNSPLASH_API_KEY=your_api_key_here
 npm start
 ```
 
-6. Open your browser and navigate to `http://localhost:3000` to view the app.
+6. Open your browser and navigate to `http://localhost:3000` to view the current project.
 
 ## How to Use
 
