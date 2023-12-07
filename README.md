@@ -1,6 +1,6 @@
 # Pixisland - A Photo Search App
 
-Pixisland is a simple web application that allows users to search for their favorite photos using keywords. The app fetches images from the Unsplash API and presents them in an order.
+Pixisland is a simple web application that allows users to search for their favorite photos using keywords. The app fetches images from the Unsplash API.
 
 ## Demo
 
